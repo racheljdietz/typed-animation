@@ -1,0 +1,25 @@
+p {
+    margin: 0;
+    display:inline;
+    float:right;
+    padding-right: 4px; /* mimics space */
+}
+
+.container {
+    position: absolute;
+    left: 40%;
+    transform: translateX(-60%);
+}
+
+#log{
+    width: 400px;
+    height: 1vw;
+    float: left;
+}
+
+#input{
+    float:left;
+}
+
+input {border:0;outline:0;}
+input:focus {outline:none!important;}
